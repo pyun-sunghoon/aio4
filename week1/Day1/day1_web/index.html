@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day 01 · 코딩 실습실</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header><a class="brand" href="index.html">◈ 코딩 실습실</a><span class="badge">PYTHON BASICS / DAY 01</span></header>
+  <main>
+    <section class="intro"><p class="eyebrow">작은 실습, 확실한 이해</p><h1>코드의 결과를<br>직접 확인해 보세요.</h1><p>값을 바꾸고, 실행하고, 결과를 비교하세요.<br>Python 기초 실습 5개를 브라우저에서 경험할 수 있습니다.</p></section>
+    <div class="workspace">
+      <nav aria-label="실습 선택" id="lesson-nav"></nav>
+      <section class="lesson" aria-labelledby="lesson-title">
+        <div class="lesson-heading"><span id="lesson-number" class="eyebrow"></span><h2 id="lesson-title"></h2><p id="lesson-description"></p></div>
+        <div class="columns">
+          <div class="input-panel"><h3>입력 & 실행</h3><form id="practice-form"><div id="fields"></div><button id="run-button" type="submit" class="primary">실행하기 <span>↗</span></button></form><button id="reset-game" type="button" class="secondary" hidden>새 게임 시작</button><p id="error" role="alert"></p></div>
+          <div class="output-panel"><div class="output-heading"><h3>실행 결과</h3><span>OUTPUT</span></div><div id="result" role="status" aria-live="polite"><p class="empty">입력값을 설정하고 실행해 보세요.</p></div></div>
+        </div>
+        <details open><summary>Python 원본 코드 살펴보기</summary><pre><code id="source-code"></code></pre></details>
+        <aside class="challenge"><span>다음 단계</span><p id="challenge"></p></aside>
+      </section>
+    </div>
+    <footer>HTML · CSS · JavaScript <span>Python 로직을 JavaScript로 구현했습니다. Python 코드는 참고용이며 브라우저에서 직접 실행하지 않습니다.</span></footer>
+  </main>
+</body>
+</html>
